@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navBar{
+    background: white;
+    height:40px;
+    width: 100%;
+    border-bottom: 1px solid #f5f5f5;
+    font-size: 18px;
+    padding-top: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#logo{
+    margin:10px;
+    cursor: pointer;
+}
+
+#navPanel{
+    float: right;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.navOptions{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#imgMain{
+    width: 100%;
+    height: auto;
+}
+
+#main{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.colA{
+    margin-bottom: 50px;
+}
+
+.bGroup{
+    font-size:20px;
+    color: dodgerblue;
+}
+
+.toggle{
+    float: right;
+    cursor: pointer;
+}
+
+#list1,#list2,#list3,#list4,#list5,#list6,#list7,#list8,
+#t12,#t22,#t32,#t42,#t52,#t62,#t72,#t82
+{
+    display: none;
+}
+
+.hospitalList{
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.hospital{
+    width: 100%;
+    min-height: 50px;
+    clear: both;
+}
+
+.hospitalA{
+    margin:5px 20px 0px 20px;
+}
+
+.iconA{
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 400px) {
+    .hospitalA,.hospitalC{
+        float: left;
+    }
+    .hospitalB{
+        padding-top: 10px;
+        clear: both;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .hospitalB{
+        margin-top: 5px;
+        float: left;
+    }
+    .hospitalA,.hospitalC{
+        float: left;
+    }
+}

@@ -1,0 +1,179 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navBar{
+    background: white;
+    height:40px;
+    width: 100%;
+    border-bottom: 1px solid #f5f5f5;
+    font-size: 18px;
+    padding-top: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#logo{
+    margin:10px;
+    cursor: pointer;
+}
+
+#navPanel{
+    float: right;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.navOptions{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#main{
+    margin-top: 70px;
+}
+
+@media only screen and (max-width: 470px) {
+    .inp{
+        margin-top: 10px;
+    }
+}
+
+
+#bGroup{
+    color: dodgerblue;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.bGroupA{
+    color: rgb(160, 2, 2);
+}
+
+.colC{
+    margin-bottom: 50px;
+}
+
+.toggle{
+    float: right;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+#t21,#t11,#t31,#t41{
+    display: none;
+}
+
+.hospitalList{
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.hospital{
+    width: 100%;
+    min-height: 50px;
+    clear: both;
+}
+
+.hospitalB{
+    margin-top: 5px;
+}
+
+.iconA{
+    font-size: 40px;
+}
+
+.bGroupC{
+    width: 120px;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .hospitalA{
+        margin:2px 20px 15px 0px;
+    }
+
+    .hospitalA,.hospitalB,.bGroupC{
+        float: left;
+    }
+
+    .hospitalB{
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+
+    .hospitalA{
+        margin:5px 20px 0px 20px;
+    }
+
+    .hospitalA,.hospitalB,.bGroupC{
+        float: left;
+    }
+}
+
+.total{
+    font-size: 30px;
+    color: dodgerblue;
+}
+
+#list2{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.sampleCount{
+    float: left;
+    height: 100px;
+    width: 24%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top:1px;
+    padding-top: 20px;
+    margin-right: 1px;
+}
+
+.blue{ background:#007bff }
+.purple{background:  #6f42c1 }
+.pink{ background:#e83e8c}
+.red{ background: #dc3545 }
+.orange{background: #fd7e14 }
+.yellow{background: #ffc107 }
+.green{background: #28a745}
+.cyan{ background:#17a2b8}
+
+
+/* Sytyling pass */
+
+#pass{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+#tagDiv{
+    height: 60px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+#passImg{
+    max-height: 50px;
+    float: left;
+}
+
+#logoName{
+    float: left;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#tdA{
+    padding-left: 50px;
+}

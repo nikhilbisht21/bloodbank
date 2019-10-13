@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navBar{
+    background: white;
+    height:40px;
+    width: 100%;
+    border-bottom: 1px solid #f5f5f5;
+    font-size: 18px;
+    padding-top: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#logo{
+    margin:10px;
+    cursor: pointer;
+}
+
+#main{
+    width:300px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+#email,#pass{
+    width: 80%;
+    height: auto;
+    margin: 5px 0px 5px 0px;
+}
+
+.labelA{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+#submit{
+    margin-top: 10px;
+}
+
+
+/* Styling SignUp page */
+
+#navPanel{
+    float: right;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.navOptions{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#mainA{
+    display: none;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.colB{
+    margin-bottom: 10px;
+}
+
+.inpA{
+    width: 90%;
+}
+
+#mainB{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+
+#error,#error1,#error2{
+    display: none;
+    padding: 5px;
+}
+
+#cont{
+    margin-top: 100px;
+}
+
+#errImg{
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 400px) {
+    .form{
+        padding-left: 10px;
+    }
+}
